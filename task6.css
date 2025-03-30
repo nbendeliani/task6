@@ -106,7 +106,6 @@ body {
 .amount {
     font-size: 60px;
     color: #ff3333
-
 }
 
 .color {
@@ -145,14 +144,15 @@ input {
 
 }
 
-.share{
+.share {
     position: absolute;
-    top:0%;
+    top: 0%;
     margin: 5px;
 }
-.heart{
+
+.heart {
     position: absolute;
-    top:0%;
+    top: 0%;
     right: 0%;
     margin: 5px;
 }
