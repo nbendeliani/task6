@@ -1,0 +1,158 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background-color: #6D4C9C;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    position: absolute;
+    height: 75%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.image-space {
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    left: -10%;
+    box-shadow: 10px 10px 10px rgb(181, 181, 181);
+}
+
+.main-image-cont {
+    background-color: #f3c5ff;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-image {
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+
+}
+
+.small-image-cont {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.small-image-cont img {
+    border: 0.3px solid;
+    height: 50%;
+    width: 15%;
+}
+
+
+.text-space {
+    position: absolute;
+    height: 90%;
+    width: 50%;
+    right: 5%;
+}
+
+.title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.plink {
+    color: #6E6E6E;
+    position: relative;
+    margin: 0;
+    font-size: small;
+}
+
+.aloha-link {
+    color: #458500;
+    text-decoration: none;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+
+}
+
+.currency {
+    font-size: 20px;
+    padding-right: 20px;
+    color: #ff3333;
+}
+
+.amount {
+    font-size: 60px;
+    color: #ff3333
+
+}
+
+.color {
+    position: relative;
+    top: 10px;
+    color: #6E6E6E;
+    position: relative;
+    font-size: small;
+}
+
+
+.color-chois img {
+    height: 30px;
+}
+
+.color-chois img:first-child {
+    border: 0.3px solid;
+}
+
+ul {
+    position: relative;
+    padding-left: 10px;
+    font-size: small;
+}
+
+input {
+    position: relative;
+    margin-top: 20px;
+    background-color: #ff0000;
+    padding: 5% 10% 5% 10%;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.share{
+    position: absolute;
+    top:0%;
+    margin: 5px;
+}
+.heart{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    margin: 5px;
+}
